@@ -1,0 +1,104 @@
+TABLE {
+	FONT-SIZE: 12px; CURSOR: default; COLOR: buttontext
+}
+INPUT {
+	FONT-SIZE: 12px; CURSOR: default; COLOR: buttontext
+}
+SELECT {
+	FONT-SIZE: 12px; CURSOR: default; COLOR: buttontext
+}
+
+.menucontent {
+	border-right:1px solid threedhighlight;
+	border-left:1px solid threedshadow;
+	border-bottom:1px solid threedhighlight;
+	border-top:1px solid threedshadow
+}
+.outdiv {
+	BORDER-RIGHT: buttonhighlight 1px solid; BORDER-TOP: buttonshadow 1px solid; BORDER-LEFT: buttonshadow 1px solid; WIDTH: 100%; BORDER-BOTTOM: buttonhighlight 1px solid
+}
+.indiv {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonhighlight 1px solid; BACKGROUND: buttonface; BORDER-LEFT: buttonhighlight 1px solid; BORDER-BOTTOM: buttonshadow 1px solid
+}
+.handbtn {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonhighlight 1px solid; BACKGROUND: buttonface; BORDER-LEFT: buttonhighlight 1px solid; BORDER-BOTTOM: buttonshadow 1px solid
+}
+.btntd {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 3px;Cursor:hand;
+}
+.handbtn {
+	WIDTH: 3px; HEIGHT: 21px
+}
+.toolbarleft {
+	BORDER-RIGHT: buttonshadow 1px solid; WIDTH: 100%
+}
+.bitbtn {
+	BORDER-RIGHT: buttonface 1px solid; 
+	PADDING-RIGHT: 3px; 
+	BORDER-TOP: buttonface 1px solid; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 0px; BEHAVIOR: url(/htc/menu.htc); 
+	BORDER-LEFT: buttonface 1px solid; 
+	PADDING-TOP: 0px; 
+	BORDER-BOTTOM: buttonface 1px solid; 
+	HEIGHT: 20px
+
+}
+.bitbtn_down {
+	behavior: url(/htc/menu_down.htc); 
+	BORDER-RIGHT: buttonface 1px solid; 
+	PADDING-RIGHT: 3px; 
+	BORDER-TOP: buttonface 1px solid; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 0px; 
+	BORDER-LEFT: buttonface 1px solid; 
+	PADDING-TOP: 0px; 
+	BORDER-BOTTOM: buttonface 1px solid; 
+	HEIGHT: 20px
+
+}
+.sepbtn {
+	BORDER-RIGHT: buttonhighlight 1px solid; BORDER-LEFT: buttonshadow 1px solid; WIDTH: 2px;height:21px;
+}
+
+
+.normal {
+	cursor:hand;
+	background-color:white;
+	color:black;
+	border-Top:1px solid buttonhighlight;
+	border-Bottom:1px solid buttonshadow;
+	border-Left:1px solid buttonhighlight;
+	border-Right:1px solid buttonshadow;
+}
+
+.normal1 {
+	cursor:hand;
+	background-color:#D8F18B;
+	color:#666666;
+	FONT-WEIGHT:bolder;
+	border-Top:1px solid buttonhighlight;
+	border-Bottom:1px solid buttonshadow;
+	border-Left:1px solid buttonhighlight;
+	border-Right:1px solid buttonshadow;
+}
+
+.today {
+	cursor:hand;
+	background-color:darkblue;
+	color:white;
+	border-Top:1px solid buttonshadow;
+	border-Bottom:1px solid buttonhighlight;
+	border-Left:1px solid buttonshadow;
+	border-Right:1px solid buttonhighlight;
+}
+
+.over {
+	cursor:hand;
+	border-Top:1px solid buttonshadow;
+	border-Bottom:1px solid buttonhighlight;
+	border-Left:1px solid buttonshadow;
+	border-Right:1px solid buttonhighlight;
+}
+
+.cImage {cursor:hand;}

@@ -1,0 +1,27 @@
+.item {FONT-SIZE: x-small; COLOR: #003399; BACKGROUND-COLOR: lightgoldenrodyellow ;}
+.Mitem{color:White;background-color:#6699CC;font-size:Small;}
+.Wtxt { FONT-SIZE: x-small; COLOR: #003399; BACKGROUND-COLOR: white ;}
+.Btxt { FONT-SIZE: x-small; COLOR: white; BACKGROUND-COLOR: #99ccff ;}
+.general {  font-family: "細明體"; font-size: 14pt; font-style: normal; line-height: 150%; font-weight: bold}
+.major-b {  font-family: "細明體"; font-size: 12pt; font-style: normal; line-height: 150%; font-weight: bold}
+.major-l {  font-family: "細明體"; font-size: 12pt; font-style: normal; line-height: 150%}
+.second-b {  font-family: "細明體"; font-size: 10pt; font-style: normal; line-height: 170%; font-weight: bold}
+.second-l {  font-family: "細明體"; font-size: 10pt; font-style: normal; line-height: 170%}
+.small  {  font-family: "細明體"; font-size: 9pt; font-style: normal; line-height: 150%}
+.Small2 {  font-family: "細明體"; font-size:10pt; font-style: normal; line-height: 150%} 
+.major-p {  font-family: "細明體"; font-size: 12pt; font-style: normal; line-height: 150%; font-weight: bold; color: 8C39B9}
+.second-lb {  font-size: 11pt; font-style: normal; line-height: 150%; color: 4668E4}
+.second-lb {  font-size: 10pt; font-style: normal; line-height: 170%; color: 4668E4; font-family: "細明體"}
+.second-bb { font-family: "細明體"; font-size: 9pt; font-style: normal; line-height: 150%; font-weight: bold }
+.box { BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid} 
+.box2 { font-family:新細明體; background-color: #ffffff; color: #042475; font-size: 9pt; border-left: 1 solid #BBBBBB; border-right: 1 solid #BBBBBB; border-top: 1 solid #BBBBBB; border-bottom: 1 solid #BBBBBB}
+.box3 { BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #333333 1px solid  } 
+.Hide{ DISPLAY: none;}
+.Show{ DISPLAY: block;}
+.fm {BORDER-RIGHT: #cccccc 1px solid; font-size: 9pt; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid}
+.major-bs { font-family: "細明體"; font-size: 11pt; font-style: normal; line-height: 150%; font-weight: bold }
+.ss { font-family: "細明體"; font-size: 8pt; font-style: normal; line-height: 150% }
+.second-b1 { font-family: "細明體"; font-size: 11pt; font-style: normal; line-height: 170%; font-weight: bold }
+.DEK {POSITION:absolute;VISIBILITY:hidden;Z-INDEX:200;}
+.flashAD{position: absolute; height:300; width: 130;visibility: visible; display: inline; z-index: 3}
+ 

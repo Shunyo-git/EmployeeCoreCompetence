@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="u11znj5mnhuuy7s_v">
+    <property name="$name" value="Data" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="design:view:::n115si7mnd5uoqe_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="msil:e_class:lib:System.Data:System.Data.SqlClient.SqlConnection" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Data:System.Data.DataSet">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

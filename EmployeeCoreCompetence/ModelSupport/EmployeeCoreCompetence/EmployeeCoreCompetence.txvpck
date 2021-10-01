@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="741onh6ppsmzisj_v">
+    <property name="$name" value="EmployeeCoreCompetence" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsConn">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsConn.conn" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsConn.OpenConnection()" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsConn.CloseConnection()" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.getUserName()" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.getUserAccount()" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.chkManager()" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.chkLimit()" />
+      <reference referencedUin="vbnet:e_property:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.UserAccount" />
+      <reference referencedUin="vbnet:e_property:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.isManager" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.m_Name" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.m_Title" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.m_UserID" />
+      <reference referencedUin="vbnet:e_property:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.UserID" />
+      <reference referencedUin="vbnet:e_property:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.isLimit" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.m_UserAccount" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.m_isLimit" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.m_isManager" />
+      <reference referencedUin="vbnet:e_property:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.Title" />
+      <reference referencedUin="vbnet:e_property:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser.Name" />
+      <reference referencedUin="vbnet:l_gnt:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsUser:EmployeeCoreCompetence.clsConn" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.Global">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsEducation">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsEducation.m_resut" />
+      <reference referencedUin="vbnet:l_gnt:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsEducation:EmployeeCoreCompetence.clsConn" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsEducation.m_isWebShow" />
+      <reference referencedUin="vbnet:e_property:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsEducation.isWebShow" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsEducation.getUserEdu(System.Object)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsEducation.New()" />
+      <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsEducation.EduWebShow" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCompetence">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:l_gnt:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCompetence:EmployeeCoreCompetence.clsConn" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCompetence.getUserCpt(System.Object)" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCompetence.m_isApprove" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCompetence.m_resut" />
+      <reference referencedUin="vbnet:e_property:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCompetence.isApprove" />
+      <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCompetence.CptApprove" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.designerPlaceholderDeclaration" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.Page_Load(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.InitializeComponent()" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.Page_Init(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.DataGrid1" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.SearchList" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.btnGoSarch" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.DataGrid1_PageIndexChanged(System.Object,System.Web.UI.WebControls.DataGridPageChangedEventArgs)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.getSearchList()" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.SearchSelectedID" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.getGridList(System.Object)" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.txtKeyword" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.btnGoSarch_Click(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.txtValidator1" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.index.DataGrid1_SelectedIndexChanged(System.Object,System.EventArgs)" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCareer">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCareer.m_isWebShow" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCareer.m_resut" />
+      <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCareer.CareerWebShow" />
+      <reference referencedUin="vbnet:e_property:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCareer.isWebShow" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCareer.getUserCareer(System.Object)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCareer.New()" />
+      <reference referencedUin="vbnet:l_gnt:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsCareer:EmployeeCoreCompetence.clsConn" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsInterest">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsInterest.m_resut" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsInterest.New()" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsInterest.getUserInterest(System.Object)" />
+      <reference referencedUin="vbnet:l_gnt:src:EmployeeCoreCompetence:EmployeeCoreCompetence.clsInterest:EmployeeCoreCompetence.clsConn" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.LeftMenu">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.LeftMenu.Page_Init(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.LeftMenu.Page_Load(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.LeftMenu.InitializeComponent()" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.LeftMenu.designerPlaceholderDeclaration" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.LeftMenu.btnSearch" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.LeftMenu.btnEditInfo" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.LeftMenu.btnManagerCpt" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.LeftMenu.btnHelp" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence._Module">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence._Module.SearchItem" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence._Module.m_strConn" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.ECC_info">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.ECC_info.Page_Load(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.ECC_info.InitializeComponent()" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.ECC_info.designerPlaceholderDeclaration" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.ECC_info.Page_Init(System.Object,System.EventArgs)" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.infoBase">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.infoBase.designerPlaceholderDeclaration" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.infoBase.Page_Load(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.infoBase.Page_Init(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.infoBase.InitializeComponent()" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.infoBase.lblEmail" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.infoBase.lblTitle" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.infoBase.lblDept" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.infoBase.lblName" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.infoBase.getInfoBase(System.Int32)" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu.Page_Load(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu.InitializeComponent()" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu.designerPlaceholderDeclaration" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu.Page_Init(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu.lblEmail" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu.lblTitle" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu.DataGrid1_SelectedIndexChanged(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu.lblSchool" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu.getEduInfo(System.Int32)" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu.lblClass" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewEdu.getClassInfo(System.Int32)" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewCareer">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewCareer.InitializeComponent()" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewCareer.designerPlaceholderDeclaration" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewCareer.Page_Load(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewCareer.Page_Init(System.Object,System.EventArgs)" />
+      <reference referencedUin="vbnet:e_field:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewCareer.DataGrid1" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewCareer.getCareerInfo(System.Int32)" />
+      <reference referencedUin="vbnet:e_method:src:EmployeeCoreCompetence:EmployeeCoreCompetence.inc_ViewCareer.DataGrid1_SelectedIndexChanged(System.Object,System.EventArgs)" />
+    </reference>
+  </view>
+</nodeSet>

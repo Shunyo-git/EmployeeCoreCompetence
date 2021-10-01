@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="w71p67lxj_v">
+    <property name="$name" value="System" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="design:view:::p71qkcygs_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.HttpApplication" />
+      <reference referencedUin="design:view:::oz2b6g394ap78mm_v" />
+    </reference>
+  </view>
+</nodeSet>
